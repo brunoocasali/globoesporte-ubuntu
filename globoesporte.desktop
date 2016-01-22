@@ -1,9 +1,8 @@
 [Desktop Entry]
-Name=globoesporte
+Name=Globoesporte
 Comment=webapp for globoesporte
 Type=Application
 Icon=globoesporte.png
-Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.globoesporte.com/* http://m.globoesporte.com %u
+Exec=webapp-container --fullscren --store-session --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://globoesporte.globo.com/* http://globoesporte.globo.com http://*.globoesporte.globo.com http://*.globoesporte.globo.com/* %u
 Terminal=false
 X-Ubuntu-Touch=true
-
